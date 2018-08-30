@@ -1,9 +1,12 @@
 
+html, 
 body {
   width: 100%;
   height: 100vh;
-  background: url(assets/freedom.jpg) no-repeat center/cover;
+  background: url(assets/freedom.jpg) no-repeat center;
+  background-size: cover;
   color: #333;
+  margin: 0;
 }
 
 .quote {
@@ -27,10 +30,10 @@ body {
 }
 
 .languages {
-  margin-right: 2rem;
   display: inline-block;
-  position: relative;
-  float: right;
+  position: absolute;
+  top: .5rem;
+  right: 2rem;
 }
 
 .languages-button {
@@ -45,11 +48,9 @@ body {
 
 .lang-links {
   display: none;
-  position: absolute;
   background-color: ivory;
   min-width: 3rem;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
 .link {
