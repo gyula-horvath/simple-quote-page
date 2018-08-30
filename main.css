@@ -25,3 +25,51 @@ body {
   font-style: italic;
   font-size: 1.5rem;
 }
+
+.languages {
+  margin-right: 2rem;
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.languages-button {
+  background-color: hsla(100, 100%, 0%, .7);
+  color: white;
+  padding: .3rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+
+.lang-links {
+  display: none;
+  position: absolute;
+  background-color: ivory;
+  min-width: 3rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.link {
+  display: block;
+  color: black;
+  padding: .8rem 1rem;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: black;
+  color: ivory;
+  border-radius: 4px;
+  transition: all .15s ease-in-out;
+}
+
+.languages:hover .lang-links {
+  display: block;
+}
+
+.languages-button:hover {
+  background-color: hsla(100, 100%, 0%, .9);
+}
