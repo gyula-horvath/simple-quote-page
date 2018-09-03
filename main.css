@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -14,28 +18,37 @@ body {
   color: #333;
 }
 
-.quote {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 1.5rem;
+.wrapper {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.wrapper {
-  text-align: center;
-  background-color: hsla(0, 0%, 100%, .3);
+.quote-card {
+  background-color: hsla(0, 0%, 100%, 0.4);
   border-radius: 10px;
-  margin: 0 5%;
+  padding: .5rem;
+}
+
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.5rem; 
 }
 
 .author {
   font-family: 'Crimson Text', serif;
-  text-align: center;
-  font-style: italic;
   font-size: 1rem;
+  font-style: italic;
 }
+
 
 .languages {
   display: inline-block;
-  margin-left: 5%;
+  position: absolute;
+  bottom: 2.5%;
+  right: 5%
 }
 
 .languages-button {
@@ -79,9 +92,24 @@ body {
 
 @media (min-width: 768px) {
   
+  .quote {
+    font-size: 2.5rem;
+  }
+  
+  .author {
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  
   .wrapper {
+    padding-top: 6%;
+  }
+  
+  .quote-card {
     background-color: transparent;
-    margin: 0 5%;
   }
   
   .quote {
