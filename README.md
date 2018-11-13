@@ -1,2 +1,11 @@
 # simple-quote-page
-A test repo, part of the Git Basics project in CodeBerry.
+A webpage containing a quote from Rousseau about freedom.
+
+# Buit with
+
+- HTML5
+- CSS3
+
+# Live version
+
+https://gyula-horvath.github.io/simple-quote-page/
