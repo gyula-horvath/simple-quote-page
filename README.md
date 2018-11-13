@@ -5,6 +5,7 @@ A webpage containing a quote from Rousseau about freedom.
 
 - HTML5
 - CSS3
+- Brackets
 
 # Live version
 
